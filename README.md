@@ -4,15 +4,15 @@ Setup & Execution Guide
 1. Clone the base project:
 
 - git --version
-git version 2.39.5 (Apple Git-154)
+→ git version 2.39.5 (Apple Git-154)
 - cd Desktop
 - git clone https://github.com/Estoty/qa-engineer-test.git
 - cd qa-engineer-test
-...
-Resolving deltas: 100% (30/30), done.
+→ ...
+→ Resolving deltas: 100% (30/30), done.
 - cd qa-engineer-test 
 - ls
-Assets		Packages	ProjectSettings
+→ Assets		Packages	ProjectSettings
 
 
 2. Install prerequisites
