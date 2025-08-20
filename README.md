@@ -4,7 +4,7 @@ Setup & Execution Guide
 1. Clone the base project:
 
 - git --version
-→ git version 2.39.5 (Apple Git-154)
+→ git version 2.39.5 (Apple Git-154) 
 - cd Desktop
 - git clone https://github.com/Estoty/qa-engineer-test.git
 - cd qa-engineer-test
@@ -13,6 +13,8 @@ Setup & Execution Guide
 - cd qa-engineer-test 
 - ls
 → Assets		Packages	ProjectSettings
+
+*Note: If you see response message after `git --version` command "xcode-select: note: No developer tools were found, requesting install. If developer tools are located at a non-default location on disk, use sudo xcode-select --switch path/to/Xcode.app to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog. See man xcode-select for more details." . Install Xcode on your computer with `xcode-select --install` and rerun `git clone` command after installation.
 
 
 2. Install prerequisites
