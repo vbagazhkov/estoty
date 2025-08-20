@@ -26,7 +26,10 @@ Unity Hub + the Unity version required by the project.
 - Install the Unity Editor in the "Installs" tab
 - In the Unity Hub, add the project from the `qa-engineer-test` folder by clicking on the Add button → Add Project from disk → Select the `qa-engineer-test` folder and click on the Open button.
 - Via Terminal check Project version: `cat ~/AltTester-Unity-SDK/ProjectSettings/ProjectVersion.txt` → m_EditorVersion: 2021.3.18f1 → here we can download special Unity build for project: https://unity.com/releases/editor/whats-new/2021.3.18f1 by clicking on the "Install" button
-  
+
+
+AltTester Desktop
+
 - Download AltTester Desktop (Community Edition): https://alttester.com/downloads/
 - Select the "AltTester CE" for your operating system. (MacOs / Win)
 - After downloading, install the "AltTester CE" on your computer and run it after installation.
