@@ -25,8 +25,9 @@ Unity Hub + the Unity version required by the project.
 - Select the "AltTester CE" for your operating system. (MacOs / Win)
 - After downloading, install the "AltTester CE" on your computer and run it after installation.
 
-⚠️ Important: Even Community Edition requires a license key. You need to request it from alttester.com
- or via support. Without it, AltTester Desktop will show “No current subscription”. 
+⚠️ Important: Even Community Edition requires a license key. You need to request it from alttester.com or via support. Without it, AltTester Desktop will show “No current subscription”. After a short period of time (~up to 4 hours), you should receive an email confirming that your email has been added to the whitelist and you can re-register on the website to obtain a licensed key for the "AltTester CE". Enter the code you received in the activation line when you started the program.
+
+
 
 Development environment:
 
