@@ -28,7 +28,8 @@ Unity Hub + the Unity version required by the project.
 - Start Unity Hub.
 - Install the Unity Editor in the "Installs" tab
 - In the Unity Hub, add the project from the `qa-engineer-test` folder by clicking on the Add button → Add Project from disk → Select the `qa-engineer-test` folder and click on the Open button.
-- Via Terminal check Project version: `cat ~/AltTester-Unity-SDK/ProjectSettings/ProjectVersion.txt` → m_EditorVersion: 2021.3.18f1 → here we can download special Unity build for project: https://unity.com/releases/editor/whats-new/2021.3.18f1 by clicking on the "Install" button
+- Via Terminal check Project version: `cat ~/AltTester-Unity-SDK/ProjectSettings/ProjectVersion.txt` → m_EditorVersion: 2021.3.18f1 → here we can download special Unity build for project: https://unity.com/releases/editor/whats-new/2021.3.18f1 by clicking on the "Install" button.
+- In the "Project" section, click on the "Editor version" and select installed `2021.3.18f1 LTS` build from the list.
 - In the "Project" section, click on your imported project and an additional window will open.
 - Go to the Unity window.
 - At the bottom of the Project section, click on the Assets folder, right-click and select Import Package → Custom Package, and add the previously downloaded `AltTesterUnitySDK.unitypackage` file.
