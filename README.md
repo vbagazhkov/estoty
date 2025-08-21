@@ -1,6 +1,6 @@
-QA Engineer test
+# **QA Engineer test**
 
-Setup & Execution Guide
+## Setup & Execution Guide
 1. Clone the base project:
 ```
 # git --version
@@ -18,7 +18,7 @@ Assets		Packages	ProjectSettings
 *Note: If you see response message after `git --version` command "xcode-select: note: No developer tools were found, requesting install. If developer tools are located at a non-default location on disk, use sudo xcode-select --switch path/to/Xcode.app to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog. See man xcode-select for more details." . Install Xcode on your computer with `xcode-select --install` and rerun `git clone` command after installation.
 
 
-2. Install prerequisites
+2. Install prerequisites and config project
 
 Unity Hub + the Unity version required by the project.
 
@@ -54,6 +54,8 @@ to
         }
     }
 ```
+  - Close Visual Studio Code, it should automatically save the changes, which can be seen on the right in the Inspector section.
+  - Again click on the play button and press several time button "Submitted" - the counter should stop at 10.
 
 
 
