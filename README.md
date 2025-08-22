@@ -55,7 +55,7 @@ to
         }
     }
 ```
-  - Close Visual Studio Code, it should automatically save the changes, which can be seen on the right in the Inspector section.
+  - Close Visual Studio Code Editor tab, it should automatically save the changes if not it will ask you Save or not changes, which can be seen on the right in the Inspector section.
   - Again click on the play button and press several time button "Submitted" - the counter should stop at 10.
 
 
