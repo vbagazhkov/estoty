@@ -1,4 +1,19 @@
-# **QA Engineer test**
+# QA Engineer Test Project
+
+## Purpose
+This project contains automated tests for the Unity application using AltTester Community Edition. The tests validate the counter functionality in the sample application.
+
+## Preconditions
+
+### Required Software
+- **Unity Hub** ([download](https://unity.com/download))
+- **Unity Editor 2021.3.18f1 LTS** ([download](https://unity.com/releases/editor/whats-new/2021.3.18f1))
+- **AltTester Unity SDK** ([download](https://alttester.com/downloads/))
+- **AltTester Desktop CE** ([download](https://alttester.com/downloads/))
+
+### License Requirement
+⚠️ **Important**: AltTester Community Edition requires a free license key. Request it from [alttester.com](https://alttester.com/) before proceeding.
+
 
 ## Setup & Execution Guide
 1. Clone the base project:
@@ -57,6 +72,10 @@ to
 ```
   - Close Visual Studio Code Editor tab, it should automatically save the changes if not it will ask you Save or not changes, which can be seen on the right in the Inspector section.
   - Again click on the play button and press several time button "Submitted" - the counter should stop at 10.
+- Go back to the Unity and in the Hierarchy and Right-click and choose Create Empty (name: AltTesterManager)
+- Select AltTesterManager object (should be highlighted as blue)
+- Go to the Inspector (window wight side) and click on the "Add Component" → New script → name: AltTesterManager → click on the "Create and Add" button
+  
 
 
 
@@ -70,21 +89,23 @@ AltTester Desktop
 
 
 
-Development environment:
-
-.NET / C# with NUnit (recommended), or
-
-Python 3.9+ with alttester package if you choose Python.
 
 
-3. Open project in Unity
+## Troubleshooting
+### Common Issues
+License Error: Ensure you have valid AltTester CE license
+Connection Issues: Verify application is running before tests
+Version Mismatch: Use exact Unity version 2021.3.18f1
 
-Start Unity Hub.
+### Support
+For technical issues:
+AltTester Documentation: https://alttester.com/docs/
+Unity Support: https://unity.com/support
 
-Open the cloned qa-engineer-test project.
+### License
+This test project is created for evaluation purposes as part of Estoty Latvia's QA Engineer recruitment process.
 
-Import AltTester Unity SDK:
 
-Unity → Assets → Import Package → Custom Package...
 
-Select the downloaded AltTester-Unity-SDK.unitypackage.
+
+
