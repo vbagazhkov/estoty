@@ -51,7 +51,7 @@ Unity Hub + the Unity version required by the project.
 - After downloading, select the Scenes folder.
 - Left-click on SampleScene.unity and click the play button (triangle pointing right) at the top. After that, you should see the "Submitted" button and a counter at the bottom (If the counter is not visible, increase the display area of the scene by lowering the borders. The counter should initially display 0, and after clicking, the value increases by 1 unit).
 - In order for our value to reach 10, we need to change the file:
-  - At the bottom of the Project section, click on the Assets folder and find Submit file, Right-click and select Open. Visual Studio Code will open, and in the code that appears, find the method “public void OnSubmit()” → change 
+  - At the bottom of the Project section, click on the Assets folder and find Submit file, Double click on the file (Right-click and select Open). Visual Studio Code Editor will open, and in the code that appears, find the method “public void OnSubmit()” → change from
 ```
   public void OnSubmit()
         {
@@ -70,7 +70,7 @@ to
         }
     }
 ```
-  - Close Visual Studio Code Editor tab, it should automatically save the changes if not it will ask you Save or not changes, which can be seen on the right in the Inspector section.
+  - Close Visual Studio Code Editor tab, it should automatically save the changes if not it will ask you Save or Don't Save changes, which can be seen on the right in the Inspector section.
   - Again click on the play button and press several time button "Submitted" - the counter should stop at 10.
 - Go back to the Unity and in the Hierarchy and Right-click and choose Create Empty (name: AltTesterManager)
 - Select AltTesterManager object (should be highlighted as blue)
@@ -101,11 +101,4 @@ Version Mismatch: Use exact Unity version 2021.3.18f1
 For technical issues:
 AltTester Documentation: https://alttester.com/docs/
 Unity Support: https://unity.com/support
-
-### License
-This test project is created for evaluation purposes as part of Estoty Latvia's QA Engineer recruitment process.
-
-
-
-
 
